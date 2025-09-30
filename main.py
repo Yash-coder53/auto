@@ -11,7 +11,28 @@ from telethon.tl.types import Channel, Chat, User
 from telethon.tl.functions.messages import GetParticipantsRequest
 from telethon.tl.types import ChannelParticipantsSearch
 from telethon.errors import FloodWaitError, ChatAdminRequiredError
+# Add at the top of your main bot file
+from messages import (
+    get_auto_reply, 
+    get_tag_all_prefix,
+    get_tag_all_suffix,
+    get_raid_message,
+    get_error_message,
+    get_success_message,
+    get_command_response,
+    message_config
+)
 
+# Replace the old message functions in your bot:
+def get_auto_reply():
+    return get_auto_reply()
+
+def get_tag_all_prefix():
+    return get_tag_all_prefix()
+
+def get_raid_message():
+    return get_raid_message()
+    
 # ========= CONFIGURATION =========
 API_ID = int(os.getenv("API_ID", "24633463"))
 API_HASH = os.getenv("API_HASH", "a2f7cd31e5017cf4fb84dd6ca2f27809")
