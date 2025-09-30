@@ -1,0 +1,27 @@
+{
+  "api_id": "24633463",
+  "api_hash": "a2f7cd31e5017cf4fb84dd6ca2f27809",
+  "sessions": [
+    "BQGuXKQAhQiWxB92vpZ3o6wPj_Jth60YBFPEC7lOcL58MsSg-HfAPt7E4mhMq51Jxb9O-5poYJ0MznBZ2ysVpDJk0DLQ5FxQG7j6ngFq4R7z2KrqKrRe4svrgFgbUKs7srZTp7vhahKaqqu7uRVkVFn5-1CfG2_5M861Rt811yLg5mfFTD92-VDlc3xm9CWenKaUGN5V2qUsQ1C-wwpphMSfIEENVqK1Gi-xkxWTK-2POj4zuzPRjSXabJGFFTb4-VOLtOiarAtNk3SqwtrFFzAc4GM7YPdk0_zKOSerND4BAjvBR5R5so32bvR4Dxx4C-Rqzn1jmv6NpqTRXfoBZF0eRx5KngAAAAGxMMFeAA",
+    "user2",
+    "user3"
+  ],
+  "auto_reply_messages": [
+    "Hello! Thanks for your message! 👋",
+    "Hi there! I'll get back to you soon. ⏳",
+    "Thanks for reaching out! I'm currently busy. 📱",
+    "Hello! Your message has been received. ✅",
+    "Hey! I'll respond properly when I'm free. 🕒"
+  ],
+  "tag_all_messages": [
+    "📢 **Attention Everyone!** \n\n",
+    "👋 **Hey everyone!** \n\n",
+    "🚨 **Important Notice!** \n\n",
+    "📣 **Announcement!** \n\n"
+  ],
+  "settings": {
+    "max_tag_members": 100,
+    "auto_reply_delay": 2,
+    "cooldown_time": 30
+  }
+}
